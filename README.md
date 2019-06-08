@@ -17,38 +17,40 @@ There are 5 ways of modifing their values:
  
 ```bruh. bruh!``` - assign another variable 
 
-```bruh. momentum bruh!``` - increase the variable by another variable
+```bruh. moment bruh!``` - increase the variable by another variable
 
 ```bruh. momentum bruh!``` - decrease the variable by another variable
 
 
- 
+Outputting variables:
+
+```moment bruh.``` - Output the variable as an integer
+
+```moment bruh bruh.``` - Conver the integer to ASCII and output it
 
 
-```markdown
-Syntax highlighted code block
+While loops:
 
-# Header 1
-## Header 2
-### Header 3
+```effect bruh. bruh?``` - Loop until ```bruh.``` is equal to ```bruh?```
 
-- Bulleted
-- List
+```effect bruh. moment bruh?``` - Loop until ```bruh.``` is bigger than```bruh?```
 
-1. Numbered
-2. List
+```effect bruh. momentum bruh?``` - Loop until ```bruh.``` is smaller than ```bruh?```
 
-**Bold** and _Italic_ and `Code` text
+```sound``` - End of a while loop
 
-[Link](url) and ![Image](src)
+*While loops can't contain other while loops!*
+
+Example loop:
+
 ```
+moment
+bruh? moment
+bruh? moment
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+effect bruh. moment bruh?
+bruh. moment 
+sound
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Zwedgy/bruh/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+moment bruh.
+```
