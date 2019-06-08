@@ -9,11 +9,21 @@ This will reset all variables to 0. It can be used later in code to reset variab
 
 Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 
-There are 3 functions for modifing their values:
+There are 5 ways of modifing their values:
 
-```moment``` - this will increase the variable by one
+```bruh. moment``` - increase the variable by one
 
-```momentum``` - this wil devrease the varianle by one
+```bruh. momentum``` - decrease the varianle by one
+ 
+```bruh. bruh!``` - assign another variable 
+
+```bruh. momentum bruh!``` - increase the variable by another variable
+
+```bruh. momentum bruh!``` - decrease the variable by another variable
+
+
+ 
+
 
 ```markdown
 Syntax highlighted code block
