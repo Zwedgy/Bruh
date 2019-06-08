@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+## Bruh esoteric programming language
+Have you ever coded something and said "bruh"? Then this is for you!
+Bruh will make you bruh when you code it.
 
-You can use the [editor on GitHub](https://github.com/Zwedgy/bruh/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Syntax
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Every program must start with ```moment```
+This will reset all variables to 0. It can be used later in code to reset variables.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
+There are 3 functions for modifing their values:
+```moment``` - this will increase the variable by one
+```momentum``` - this wil devrease the varianle by one
 
 ```markdown
 Syntax highlighted code block
