@@ -8,8 +8,11 @@ Every program must start with ```moment```
 This will reset all variables to 0. It can be used later in code to reset variables.
 
 Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
+
 There are 3 functions for modifing their values:
+
 ```moment``` - this will increase the variable by one
+
 ```momentum``` - this wil devrease the varianle by one
 
 ```markdown
