@@ -2,6 +2,8 @@
 Have you ever coded something and said "bruh"? Then this is for you!
 Bruh will make you bruh when you code it.
 
+[Online interpreter](https://zwedgy.github.io/Bruh/)
+
 # Syntax 
 
 ### Variables:
