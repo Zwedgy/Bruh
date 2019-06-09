@@ -241,8 +241,263 @@ moment bruh.
     }
 
     function run() {
-        var code = document.querySelector('#code');
+        var code = document.querySelector('#code').value.trim();
+        var codes = code.split("\n")
+        var linei = 0
+        var while_start = 0
+        var while_end = 0
+        var bruh1 = 0
+        var bruh2 = 0
+        var bruh3 = 0
         var output = "bruh"
+        while(linei < codes.length){
+            var line = codes[linei]
+            var linei += 1
+            if(line == 'effect'){
+                while_end = linei
+                linei = while_start - 1
+            }else if(line.startswith("bruh.")){
+                var args = line.split(" ")
+                if(args[1] == "momentum"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }
+					bruh1 += amount
+                }else if(args[1] == "moment"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }bruh1 -= amount
+                }else if(args[1] == "bruh!"){
+                    bruh1 = bruh2
+                }else if(args[1] == "bruh?"){
+                    bruh1 = bruh3
+				}
+            }else if(line.startswith("bruh!")){
+                var args = line.split(" ")
+                if(args[1] == "momentum"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }bruh2 += amount
+                }else if(args[1] == "moment"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }bruh2 -= amount
+                }else if(args[1] == "bruh."){
+                    bruh2 = bruh1
+                }else if(args[1] == "bruh?"){
+                    bruh2 = bruh3
+				}
+            }else if(line.startswith("bruh?")){
+                var args = line.split(" ")
+                if(args[1] == "momentum"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }bruh3 += amount
+                }else if(args[1] == "moment"){
+                    amount = 1
+                    if(args.length == 3){
+                        if(args[2] == "bruh."){
+                            amount = bruh1
+                        }else if(args[2] == "bruh!"){
+                            amount = bruh2
+                        }else if(args[2] == "bruh?"){
+                            amount = bruh3
+						}
+                    }bruh3 -= amount
+                }else if(args[1] == "bruh."){
+                    bruh3 = bruh1
+                }else if(args[1] == "bruh!"){
+                    bruh3 = bruh2
+				}
+            }else if(line.startswith("momentum")){
+                var args = line.split(" ")
+                if(args[1] == "bruh."){
+                    setResult(String.fromCharCode(bruh1))
+                }else if(args[1] == "bruh!"){
+                    setResult(String.fromCharCode(bruh2))
+                }else if(args[1] == "bruh?"){
+                    setResult(String.fromCharCode(bruh3))
+				}
+            }else if(line.startswith("moment")){
+                var args = line.split(" ")
+                if(args[1] == "bruh."){
+                    setResult(bruh1)
+                }else if(args[1] == "bruh!"){
+                    setResult(bruh2)
+                }else if(args[1] == "bruh?"){
+                    setResult(bruh3)
+				}
+            }else if(line.startswith("sound")){
+                while_start = linei
+                var args = line.split(" ")
+                if(args[1] == "bruh."){
+                    if(args[2] == "momentum"){
+                        if(args[3] == "bruh?"){
+                            if(bruh1 <= bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                        if(args[3] == "bruh!"){
+                            if(bruh1 <= bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                    }else if(args[2] == "moment"){
+                        if(args[3] == "bruh?"){
+                            if(bruh1 >= bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}}
+                        if(args[3] == "bruh!"){
+                            if(bruh1 >= bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}}
+                    }else if(args[2] == "bruh?"){
+                            if(bruh1 == bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+                    }else if(args[2] == "bruh!"){
+                            if(bruh1 == bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+					}
+				}
+                if(args[1] == "bruh!"){
+                    if(args[2] == "momentum"){
+                        if(args[3] == "bruh?"){
+                            if(bruh2 <= bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+                        }if(args[3] == "bruh."){
+                            if(bruh2 <= bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                    }else if(args[2] == "moment"){
+                        if(args[3] == "bruh?"){
+                            if(bruh2 >= bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+                        }if(args[3] == "bruh."){
+                            if(bruh2 >= bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                    }else if(args[2] == "bruh?"){
+                            if(bruh2 == bruh3){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+                    }else if(args[2] == "bruh."){
+                            if(bruh2 == bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+					}
+				}
+                if(args[1] == "bruh?"){
+                    if(args[2] == "momentum"){
+                        if(args[3] == "bruh!"){
+                            if(bruh3 <= bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                        if(args[3] == "bruh."){
+                            if(bruh3 <= bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                    }else if(args[2] == "moment"){
+                        if(args[3] == "bruh!"){
+                            if(bruh3 >= bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                        if(args[3] == "bruh."){
+                            if(bruh3 >= bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+						}
+                    }else if(args[2] == "bruh!"){
+                            if(bruh3 == bruh2){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+                    }else if(args[2] == "bruh."){
+                            if(bruh3 == bruh1){
+                                linei = while_end
+                                while_end = 0
+                                while_start = 0
+							}
+					}
+				}
+			}
+		}
         setResult(output);
     }
 </script>
