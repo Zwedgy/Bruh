@@ -8,7 +8,7 @@ Bruh will make you bruh when you code it.
 document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </script>
 
-#Syntax 
+# Syntax 
 
 ### Variables:
 
