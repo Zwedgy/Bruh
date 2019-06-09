@@ -11,33 +11,33 @@ Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 
 There are 5 ways of modifing their values:
 
-```bruh. moment``` - increase the variable by one
+```bruh. momentum``` - increase the variable by one
 
-```bruh. momentum``` - decrease the varianle by one
+```bruh. moment``` - decrease the varianle by one
  
 ```bruh. bruh!``` - assign another variable 
 
-```bruh. moment bruh!``` - increase the variable by another variable
+```bruh. momentum bruh!``` - increase the variable by another variable
 
-```bruh. momentum bruh!``` - decrease the variable by another variable
+```bruh. moment bruh!``` - decrease the variable by another variable
 
 
 Outputting variables:
 
 ```moment bruh.``` - Output the variable as an integer
 
-```moment bruh bruh.``` - Conver the integer to ASCII and output it
+```momentum bruh.``` - Convert the integer to ASCII and output it
 
 
 While loops:
 
-```effect bruh. bruh?``` - Loop until ```bruh.``` is equal to ```bruh?```
+```sound bruh. bruh?``` - Loop until ```bruh.``` is equal to ```bruh?```
 
-```effect bruh. moment bruh?``` - Loop until ```bruh.``` is bigger than```bruh?```
+```sound bruh. momentum bruh?``` - Loop until ```bruh.``` is bigger than```bruh?```
 
-```effect bruh. momentum bruh?``` - Loop until ```bruh.``` is smaller than ```bruh?```
+```sound bruh. moment bruh?``` - Loop until ```bruh.``` is smaller than ```bruh?```
 
-```sound``` - End of a while loop
+```effect``` - End of a while loop
 
 *While loops can't contain other while loops!*
 
@@ -45,12 +45,12 @@ Example loop:
 
 ```
 moment
-bruh? moment
-bruh? moment
+bruh? momentum
+bruh? momentum
 
-effect bruh. moment bruh?
-bruh. moment 
-sound
+sound bruh. momentum bruh?
+bruh. momentum
+effect
 
 moment bruh.
 ```
