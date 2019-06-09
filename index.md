@@ -1,5 +1,4 @@
-<h>Bruh<h>
-<h1> Bruh esoteric programming language</h1>
+## Bruh esoteric programming language
 Have you ever coded something and said "bruh"? Then this is for you!
 Bruh will make you bruh when you code it.
 
@@ -9,7 +8,7 @@ Bruh will make you bruh when you code it.
 document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </script>
 
-<h> Syntax </h>
+#Syntax 
 
 ### Variables:
 
