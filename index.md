@@ -21,7 +21,7 @@ Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 
 ```bruh. moment``` - decrease ```bruh.``` by one
  
-```bruh. bruh!``` - assign ```bruh?``` to ```bruh.``` 
+```bruh. bruh!``` - assign ```bruh!``` to ```bruh.``` 
 
 ```bruh. momentum bruh!``` - increase ```bruh.``` by ```bruh!```
 
