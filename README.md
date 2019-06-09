@@ -11,22 +11,22 @@ This will reset all variables to 0. It can be used later in code to reset variab
 
 ### There are 5 ways of modifing their values:
 
-```bruh. momentum``` - increase the variable by one
+```bruh. momentum``` - increase ```bruh.``` by one
 
-```bruh. moment``` - decrease the varianle by one
+```bruh. moment``` - decrease ```bruh.``` by one
  
-```bruh. bruh!``` - assign another variable 
+```bruh. bruh!``` - assign ```bruh?``` to ```bruh.``` 
 
-```bruh. momentum bruh!``` - increase the variable by another variable
+```bruh. momentum bruh!``` - increase ```bruh.``` by ```bruh!```
 
-```bruh. moment bruh!``` - decrease the variable by another variable
+```bruh. moment bruh!``` - decrease ```bruh.``` by ```bruh!```
 
 
 ### Outputting variables:
 
-```moment bruh.``` - Output the variable as an integer
+```moment bruh.``` - Output ```bruh.``` as an integer
 
-```momentum bruh.``` - Convert the integer to ASCII and output it
+```momentum bruh.``` - Convert ```bruh.``` to ASCII and output it
 
 
 ### While loops:
