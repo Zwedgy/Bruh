@@ -2,6 +2,12 @@
 Have you ever coded something and said "bruh"? Then this is for you!
 Bruh will make you bruh when you code it.
 
+<div id="text"></div>
+ 
+<script>
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
+</script>
+
 # Syntax
 
 ### Variables:
