@@ -8,6 +8,17 @@ Bruh will make you bruh when you code it.
 document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </script>
 
+<textarea rows="4" cols="50">
+bruh? momentum
+bruh? momentum
+
+sound bruh. momentum bruh?
+bruh. momentum
+effect
+
+moment bruh.
+</textarea>
+
 # Syntax 
 
 ### Variables:
