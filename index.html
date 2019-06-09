@@ -256,7 +256,7 @@ moment bruh.
             if(line == 'effect'){
                 while_end = linei
                 linei = while_start - 1
-            }else if(line.startswith("bruh.")){
+            }else if(line.startsWith("bruh.")){
                 var args = line.split(" ")
                 if(args[1] == "momentum"){
                     amount = 1
@@ -286,7 +286,7 @@ moment bruh.
                 }else if(args[1] == "bruh?"){
                     bruh1 = bruh3
 				}
-            }else if(line.startswith("bruh!")){
+            }else if(line.startsWith("bruh!")){
                 var args = line.split(" ")
                 if(args[1] == "momentum"){
                     amount = 1
@@ -315,7 +315,7 @@ moment bruh.
                 }else if(args[1] == "bruh?"){
                     bruh2 = bruh3
 				}
-            }else if(line.startswith("bruh?")){
+            }else if(line.startsWith("bruh?")){
                 var args = line.split(" ")
                 if(args[1] == "momentum"){
                     amount = 1
@@ -344,7 +344,7 @@ moment bruh.
                 }else if(args[1] == "bruh!"){
                     bruh3 = bruh2
 				}
-            }else if(line.startswith("momentum")){
+            }else if(line.startsWith("momentum")){
                 var args = line.split(" ")
                 if(args[1] == "bruh."){
                     setResult(String.fromCharCode(bruh1))
@@ -353,7 +353,7 @@ moment bruh.
                 }else if(args[1] == "bruh?"){
                     setResult(String.fromCharCode(bruh3))
 				}
-            }else if(line.startswith("moment")){
+            }else if(line.startsWith("moment")){
                 var args = line.split(" ")
                 if(args[1] == "bruh."){
                     setResult(bruh1)
@@ -362,7 +362,7 @@ moment bruh.
                 }else if(args[1] == "bruh?"){
                     setResult(bruh3)
 				}
-            }else if(line.startswith("sound")){
+            }else if(line.startsWith("sound")){
                 while_start = linei
                 var args = line.split(" ")
                 if(args[1] == "bruh."){
