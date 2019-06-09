@@ -5,9 +5,11 @@ Bruh will make you bruh when you code it.
 # Syntax
 
 Every program must start with ```moment```
-This will reset all variables to 0. It can be used later in code to reset variables.
+This will reset all variables to 0. 
+It can be used later in a program to reset the variables.
 
-### Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
+### Variables:
+Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 
 ### There are 5 ways of modifing their values:
 
