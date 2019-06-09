@@ -47,7 +47,7 @@ Example loop:
 bruh? momentum
 bruh? momentum
 
-sound bruh. momentum bruh?
+sound bruh. moment bruh?
 bruh. momentum
 effect
 
