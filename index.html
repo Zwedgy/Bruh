@@ -123,7 +123,9 @@
 </head>
 <body>
     <h1> Have you ever coded anything and said "bruh"? Then this is for you!</h1>
-    <textarea placeholder="Bruh code here!" id="code" style="width:100%;min-height:300px"></textarea>
+    <textarea placeholder="Bruh code here!" id="code" style="width:50%;min-height:300px"></textarea>
+   <textarea placeholder="Output" id="output" style="width:50%;min-height:300px"></textarea>
+    
     <input type="submit" onclick="run()" value="Run" />
     <footer>
         <p align="center">Bruh</p>
@@ -132,8 +134,8 @@
 <script type="text/javascript">
 
     function setResult(text) {
-        var code = document.querySelector('#code');
-        code.value = text
+        var output = document.querySelector('#output');
+        output.value = text
     }
 
     function run() {
