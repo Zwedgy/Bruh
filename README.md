@@ -39,7 +39,7 @@ While loops:
 
 ```effect``` - End of a while loop
 
-*While loops can't contain other while loops!*
+**While loops can't contain other while loops!**
 
 Example loop:
 
