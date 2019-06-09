@@ -2,14 +2,14 @@
 Have you ever coded something and said "bruh"? Then this is for you!
 Bruh will make you bruh when you code it.
 
-### Syntax
+# Syntax
 
 Every program must start with ```moment```
 This will reset all variables to 0. It can be used later in code to reset variables.
 
-Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
+### Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 
-There are 5 ways of modifing their values:
+### There are 5 ways of modifing their values:
 
 ```bruh. momentum``` - increase the variable by one
 
@@ -22,14 +22,14 @@ There are 5 ways of modifing their values:
 ```bruh. moment bruh!``` - decrease the variable by another variable
 
 
-Outputting variables:
+### Outputting variables:
 
 ```moment bruh.``` - Output the variable as an integer
 
 ```momentum bruh.``` - Convert the integer to ASCII and output it
 
 
-While loops:
+### While loops:
 
 ```sound bruh. bruh?``` - Loop until ```bruh.``` is equal to ```bruh?```
 
