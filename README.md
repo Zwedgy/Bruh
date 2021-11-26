@@ -4,7 +4,7 @@ Bruh will make you bruh when you code it.
 
 [Online interpreter](https://zwedgy.github.io/Bruh/)
 
-# Syntax 
+# Syntax
 
 ### Variables:
 
@@ -16,8 +16,8 @@ Bruh has 3 variables: ```bruh.```, ```bruh!``` and ```bruh?```
 ```bruh. momentum``` - increase ```bruh.``` by one
 
 ```bruh. moment``` - decrease ```bruh.``` by one
- 
-```bruh. bruh!``` - assign ```bruh!``` to ```bruh.``` 
+
+```bruh. bruh!``` - assign ```bruh!``` to ```bruh.```
 
 ```bruh. momentum bruh!``` - increase ```bruh.``` by ```bruh!```
 
@@ -55,4 +55,4 @@ effect
 
 moment bruh.
 ```
- 
+
